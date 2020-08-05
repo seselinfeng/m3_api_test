@@ -1,0 +1,22 @@
+test_stock:
+#  - requests:
+-
+  headers:
+    Content-Type: application/json
+  json:
+    code: SWITCH
+    hotelId: '440135'
+    inDate: $inDate
+    pid: '1'
+    requestTime: '1596164067770'
+    roomType: day
+    service: stock
+    sign: f3fbb464f33b924f8162c4a604900757
+    signType: MD5
+    symbol: ae4c1371c32e40f3b72729474f88edbc
+    uticket: jPRBahzgoF0jFdaOa5iOXDWwQKrbwAlSIzFRdVTSsI0=
+  method: post
+  url: https://gateway.dev.m3.innowealth.cn/recv
+#  - hooks:
+#      setup_hooks: ${setup_hook_prepare_kwargs($json)}
+#  teardown_hooks: ${teardown_hook_sleep_N_secs($response, 2)}

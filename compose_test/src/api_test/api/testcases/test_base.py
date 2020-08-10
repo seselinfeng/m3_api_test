@@ -1,5 +1,5 @@
-from api.login import Login
-from api.stock import Stock
+from compose_test.src.api_test.api import Login
+from compose_test.src.api_test.api import Stock
 
 
 class TestBase:

@@ -1,6 +1,6 @@
 # 在api package中是代表所有的接口信息的具体的实现，一个公共方法代表一个接口
 
-from api.base_api import BaseApi
+from compose_test.src.api_test.api.base_api import BaseApi
 
 
 class Stock(BaseApi):

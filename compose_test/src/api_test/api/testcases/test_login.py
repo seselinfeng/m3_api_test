@@ -1,7 +1,7 @@
 import pytest
 
-from testcases.test_base import TestBase
-from utils.processingdata import get_data
+from compose_test.src.api_test.api.testcases import TestBase
+from compose_test.src.api_test.api.utils import get_data
 
 
 class TestLogin(TestBase):

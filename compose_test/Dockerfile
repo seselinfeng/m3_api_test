@@ -3,3 +3,5 @@ COPY src/ /opt/src
 WORKDIR /opt/src
 RUN pip install -r requirements.txt
 CMD ["python","app.py"]
+WORKDIR /opt/src/api_test/api/testcases
+CMD ['pytest','-m','-v','*']

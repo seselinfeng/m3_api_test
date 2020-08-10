@@ -7,5 +7,6 @@ services:
   redis:
     image: "redis:3.0.7"
   networks:
-    external:
-      name: jenkins_net
+    custom_net:
+      external:
+        name: "jenkins_net"

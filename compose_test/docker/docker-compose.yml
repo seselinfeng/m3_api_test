@@ -3,7 +3,7 @@ services:
   web:
     build: ../
     ports:
-    - "5010:5000"
+    - "5011:5000"
   redis:
     image: "redis:3.0.7"
   networks:

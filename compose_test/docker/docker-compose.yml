@@ -6,7 +6,3 @@ services:
     - "5011:5000"
   redis:
     image: "redis:3.0.7"
-  networks:
-    custom_net:
-      external:
-        name: "jenkins_net"

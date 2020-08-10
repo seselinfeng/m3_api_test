@@ -2,6 +2,5 @@ FROM python/python3.8.5:v1.0
 COPY src/ /opt/src
 WORKDIR /opt/src
 RUN pip install -r requirements.txt
-CMD ["python","app.py"]
-WORKDIR /opt/src/api_test/api/testcases
-CMD ['pytest','-m','-v','*']
+#CMD ["python","app.py"]
+CMD source /opt/src/run/entrypoint.sh

@@ -1,4 +1,4 @@
 /bin/bash
 python app.py
 cd /api_test/api/testcases/
-pytest -m -v *
+pytest -m -v * -> /dev/log.txt

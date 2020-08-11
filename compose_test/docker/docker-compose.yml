@@ -3,8 +3,8 @@ services:
   web:
     build: ../
     ports:
-    - "5011:5000"
+      - "5011:5000"
     volumes:
-    - ../src:/opt/src
+      - ../src:/opt/src
   redis:
     image: "redis:3.0.7"

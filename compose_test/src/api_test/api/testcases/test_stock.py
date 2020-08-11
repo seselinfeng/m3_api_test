@@ -1,7 +1,7 @@
 import pytest
 
-from compose_test.src.api_test.api.testcases.test_base import TestBase
-from compose_test.src.api_test.api.utils.processingdata import get_data
+from src.api_test.api.testcases.test_base import TestBase
+from src.api_test.api.utils.processingdata import get_data
 
 
 class TestStock(TestBase):

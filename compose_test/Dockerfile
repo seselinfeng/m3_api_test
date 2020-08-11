@@ -1,6 +1,5 @@
 FROM python/python3.8.5:v1.0
 COPY src/ /opt/src
-RUN echo "copy"
 WORKDIR /opt/src
 RUN pip install -r requirements.txt
 CMD ["python","app.py"]

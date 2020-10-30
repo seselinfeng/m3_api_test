@@ -4,4 +4,4 @@ WORKDIR /opt/src
 RUN pip install -r requirements.txt
 CMD ["python","app.py"]
 #CMD source /opt/src/start.sh
-CMD ["python","-m","pytest","-v","/api_test/api/testcases/*","--alluredir=./result"]
+#CMD ["python","-m","pytest","-v","/api_test/api/testcases/*","--alluredir=./result"]

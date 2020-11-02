@@ -6,7 +6,6 @@ from api_test.api.testcases.test_base import TestBase
 from api_test.api.utils.processingdata import get_data
 
 
-
 @allure.feature("获取房态接口测试")
 class TestGetRoomStatus(TestBase):
     @allure.title("测试接口是否正常")
